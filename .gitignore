@@ -1,0 +1,14 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore model files and large data files
+models/*.pkl
+models/*.json
+data/processed/f1_cleaned.csv
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
